@@ -1,0 +1,317 @@
+body {
+    padding-left: 180px;
+    padding-right: 180px;
+}
+
+#head {
+    background-color: brown;
+    width: auto;
+    height: 220px;
+
+}
+
+#head h1 {
+    float: right;
+    margin-right: 170px;
+    margin-top: 50px;
+    font-size: 40px;
+
+    color: antiquewhite;
+}
+
+#head h2 {
+    margin-left: 55%;
+    font-size: 25px;
+    color: antiquewhite;
+
+}
+
+#head img {
+    height: 150px;
+    width: 150px;
+
+}
+
+#nav {
+    background-color: black;
+    height: 35px;
+    padding-top: 15px;
+}
+
+#nav a {
+
+    margin-left: 45px;
+    text-decoration: none;
+    color: white;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    color: blue;
+}
+
+#h3head {
+    color: red;
+}
+
+#upprdiv1 {
+    background-color: blue;
+    position: absolute;
+    padding-top: 5px;
+    margin-left: 25%;
+    height: 40px;
+    width: 300px
+}
+
+#upprdiv1 a {
+    margin-left: 35px;
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+
+}
+
+.upprdiv2 {
+
+    display: inline-block;
+    width: 230px;
+
+    padding: 5px;
+}
+
+.upprdiv2 a {
+
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+
+    text-decoration: none;
+
+}
+
+#extra {
+    display: flex;
+}
+
+.main {
+    display: flex;
+
+}
+
+.content1 {
+    border: 2px solid maroon;
+    height: 850px;
+    width: 300px;
+    margin: 2px;
+    padding: 5px;
+}
+
+.div1 {
+    background-color: maroon;
+    font-weight: bolder;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.content1 ul li a {
+    color: blue;
+    font-size: 19px;
+    font-family: sans-serif;
+    text-decoration: none;
+
+}
+
+.viewmore {
+    font-weight: 100;
+    font-size: 30px;
+    color: blue;
+    margin-left: 44%;
+    text-decoration: none;
+
+}
+
+#bottomdiv {
+    border: 3px solid maroon;
+    height: auto;
+    width: 1000px;
+
+    margin-top: 100px;
+}
+
+#bottomdiv p {
+
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.maquee a {
+    font-size: 19px;
+
+}
+
+#descrip {
+    margin-top: 120px;
+    display: flex;
+    background-color: rgb(185, 190, 190);
+    padding-left: 120px;
+}
+
+#descrip div {
+    text-align: center;
+    margin-left: 25px;
+}
+
+#descrip div a {
+    color: black;
+    text-decoration: none;
+}
+
+#admission {
+    float: right;
+
+
+}
+
+
+@media screen and (max-width:650px) {
+    body {
+        padding-left: 5px;
+        padding-right: 5px;
+        height: auto;
+        width: auto;
+    }
+
+    #head {
+
+        width: auto;
+        height: auto;
+
+    }
+
+    #head h1 {
+        float: none;
+        margin-right: 170px;
+        margin-top: 50px;
+        font-size: 30px;
+
+
+    }
+
+    #head h2 {
+        margin-left: 0%;
+        font-size: 25px;
+
+
+    }
+
+    #head img {
+        height: 50px;
+        width: 50px;
+
+    }
+
+    #nav {
+
+        height: auto;
+        padding-top: 15px;
+    }
+
+    #nav a {
+
+        margin-left: 45px;
+
+    }
+
+
+
+
+    #upprdiv1 {
+
+        position: absolute;
+        padding-top: 2px;
+        margin-left: 0%;
+        height: auto;
+        width: 300px;
+    }
+
+    #upprdiv1 a {
+        margin-left: 30px;
+        font-size: 25px;
+
+
+    }
+
+    .upprdiv2 {
+
+        display: block;
+        width: auto;
+
+        padding: 5px;
+    }
+
+    #extra {
+        display: block;
+    }
+
+    .main {
+        display: block;
+
+    }
+
+    .content1 {
+
+        height: auto;
+        width: auto;
+
+    }
+
+
+
+    .content1 ul li a {
+
+        font-size: 17px;
+
+    }
+
+    .viewmore {
+
+        font-size: 27px;
+
+
+    }
+
+    #bottomdiv {
+
+        width: auto;
+        text-justify: inter-word;
+
+    }
+
+    .maquee a {
+        font-size: 16px;
+
+    }
+
+    #descrip {
+        margin-top: 100px;
+
+        padding-left: 5px;
+    }
+
+    #descrip div {
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    #admission {
+        float: none;
+
+
+    }
+
+}
