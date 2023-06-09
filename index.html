@@ -9,35 +9,88 @@
         body{
             display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-color: darkgoldenrod;
+        background-color: rgb(250, 154, 251);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        h1
+        {
+            text-align: center;
         }
         ul{
             list-style: none;
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+            grid-auto-rows: 200px;
+            gap: 20px;
+            position: relative;
+        }
+        ul img
+        {
+            position: fixed;
+            top: -100px;
+            right: -50px;
+            width: 500px;
+            height: auto;
+            opacity: .4;
+        }
+        li a{
+            display: grid;
+            place-items: center;
+            width: 100%;
+            height: 100%;
+            background: #83a5fd;
+            border-radius: 20px;
+            text-decoration: none;
+            text-transform: capitalize;
+            color: black;
+            font-size: 20px;
+            position: relative;
+            transition:.3s ease;
+        }
+        li a::after
+        {
+            content: '';
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: url(./heart.png);
+            background-position: center;
+            background-size: contain;
+            opacity: 0;
+            background-repeat: no-repeat;
+            transition:.3s ease;
+        }
+        li a:hover{
+            background: #638bf0;
+        }
+        li a:hover::after{
+            opacity: .8;
         }
     </style>
 </head>
 <body>
     <h1>atplc task </h1>
     <ul>
-        <li><button><a href="task1.html">Task-1</a></button></li>
-        <li><button><a href="task2.html">Task-2</a></button></li>
-        <li><button><a href="task-3.html">Task-3</a></button></li>
-        <li><button><a href="task4.html">Task-4</a></button></li>
-        <li><button><a href="`task5.html">Task-5</a></button></li>
-        <li><button><a href="task6.html">Task-6</a></button></li>
-        <li><button><a href="task7.html">Task-7</a></button></li>
-        <li><button><a href="minor project.html">task8</a></button></li>
-        <li><button><a href="task9.html">Task-9</a></button></li>
-        <li><button><a href="task10.html">Task-10</a></button></li>
-        <li><button><a href="task11/index.html">Task-11</a></button></li>
-        <li><button><a href="task12.html">Task-12</a></button></li>
-        <li><button><a href="taSK13.HTML">Task-13</a></button></li>
-        <li><button><a href="task14.html">Task-14</a></button></li>
-        <li><button><a href="task15.html">Task-15</a></button></li>
-        <li><button><a href="task16.html">Task-16</a></button></li>
-        <li><button><a href="final project/gown.html">final project</a></button></li>
+        <img src="./heart.png" alt="heart">
+        <li><a href="task1.html">Task-1</a></li>
+        <li><a href="task2.html">Task-2</a></li>
+        <li><a href="task-3.html">Task-3</a></li>
+        <li><a href="task4.html">Task-4</a></li>
+        <li><a href="`task5.html">Task-5</a></li>
+        <li><a href="task6.html">Task-6</a></li>
+        <li><a href="task7.html">Task-7</a></li>
+        <li><a href="minor project.html">task8</a></li>
+        <li><a href="task9.html">Task-9</a></li>
+        <li><a href="task10.html">Task-10</a></li>
+        <li><a href="task11/index.html">Task-11</a></li>
+        <li><a href="task12.html">Task-12</a></li>
+        <li><a href="taSK13.HTML">Task-13</a></li>
+        <li><a href="task14.html">Task-14</a></li>
+        <li><a href="task15.html">Task-15</a></li>
+        <li><a href="task16.html">Task-16</a></li>
+        <li><a href="final project/gown.html">final project</a></li>
         
         
     </ul>
